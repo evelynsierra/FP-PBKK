@@ -1,7 +1,7 @@
 # HADIJAYA
 Hadijaya merupakan aplikasi web toko online sederhana dengan demo produk penjualan perkakas. Produk dan kategori dapat diubah dengan bebas (tidak hanya perkakas), pengaturan (nama situs, rekening) dan sebagainya bisa diubah dengan bebas melalui dasbor.
 
-##Fitur##
+## Fitur ##
 - Login
 - Register
 - Keranjang belanja
@@ -12,7 +12,7 @@ Hadijaya merupakan aplikasi web toko online sederhana dengan demo produk penjual
 - Formulir kontak
 - Testimoni
 
-##Hak akses##
+## Hak akses ##
 - Admin
 - Customer
 
