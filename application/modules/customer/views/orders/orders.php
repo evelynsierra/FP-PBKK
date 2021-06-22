@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<div class="content-wrapper">
+<div class="content-wrapper px-4">
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
@@ -49,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <?php else : ?>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="alert alert-info">
+                        <div class="alert alert-info mb-0">
                             Belum ada data order.
                         </div>
                     </div>

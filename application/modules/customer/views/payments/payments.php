@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<div class="content-wrapper">
+<div class="content-wrapper px-4">
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <h1>Pembayaran Saya</h1>
                 </div>
                 <div class="col-sm-2">
-                    <?php echo anchor('customer/payments/confirm', 'Tambah Pembayaran'); ?>
+                    <?php echo anchor('customer/payments/confirm', 'Tambah Pembayaran', array('class' => 'btn btn-primary')); ?>
                 </div>
                 <div class="col-sm-5">
                     <ol class="breadcrumb float-sm-right">

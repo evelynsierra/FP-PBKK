@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<div class="content-wrapper">
+<div class="content-wrapper px-4">
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="col-md-8">
                 <div class="card card-primary">
                     <div class="card-header">
-                        <h5 class="card-heading">Data Pembayaran</h5>
+                        <h5 class="card-heading mb-0">Data Pembayaran</h5>
                     </div>
                     <?php echo form_open_multipart('customer/payments/do_confirm'); ?>
                     <div class="card-body">
@@ -112,7 +112,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="col-md-4">
                 <div class="card card-info">
                     <div class="card card-header">
-                        <h5 class="card-heading">Pembayaran saya</h5>
+                        <h5 class="card-heading mb-0">Pembayaran saya</h5>
                     </div>
                     <div class="card-body p-0">
                       <?php if ( count($payments) > 0) : ?>
@@ -136,7 +136,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           <?php endforeach; ?>
                         </table>
                       <?php else : ?>
-                        <div class="m-3 alert alert-info">Belum ada data pembayaran.</div>
+                        <div class="mx-3 alert alert-info">Belum ada data pembayaran.</div>
                       <?php endif; ?>
                     </div>
                 </div>
